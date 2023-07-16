@@ -10,8 +10,8 @@ repo_url: https://github.com/vandeplaslab/image2image-docs
 
 # Copyright
 copyright: Copyright &copy; 2023 - present Van de Plas lab
-extra_css:
-  - assets/css/extra.css
+# extra_css:
+#   - assets/css/extra.css
 
 theme:
   icon:
@@ -45,6 +45,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - changelog
+  - attr_list
+  - md_in_html
 
 plugins:
   - search
