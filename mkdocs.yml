@@ -10,13 +10,13 @@ repo_url: https://github.com/vandeplaslab/image2image-docs
 
 # Copyright
 copyright: Copyright &copy; 2023 - present Van de Plas lab
-# extra_css:
-#   - assets/css/extra.css
+extra_css:
+  - assets/css/extra.css
 
 theme:
-  icon:
-    logo: material/chevron-right
   name: material
+  logo: assets/icon.svg
+  favicon: assets/icon.svg
   palette:
     - scheme: default
       primary: grey
@@ -34,11 +34,8 @@ theme:
     - navigation.instant
     - navigation.top
     - navigation.tabs
-    # - navigation.tracking
     - search.highlight
     - search.suggest
-    # - toc.follow
-    # - content.code.annotate
 
 markdown_extensions:
   - admonition
@@ -47,40 +44,26 @@ markdown_extensions:
   - changelog
   - attr_list
   - md_in_html
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 plugins:
   - search
   - autorefs
   - minify:
       minify_html: true
-  # - mkdocstrings:
-  #     watch:
-  #       - napari_plot
-  #     handlers:
-  #       python:
-  #         import:
-  #           - https://docs.python.org/3/objects.inv
-  #         selection:
-  #           docstring_style: numpy
-  #           filters: ["!^_"]
-  #         rendering:
-  #           show_root_heading: true
-  #           # show_root_toc_entry: true
-  #           show_root_full_path: true
-  #           # show_object_full_path: false
-  #           # show_root_members_full_path: false
-  #           # show_category_heading: false
-  #           # show_if_no_docstring: false
-  #           # show_signature: true
-  #           # show_signature_annotations: false
-  #           show_source: true
-  #           # show_bases: true
-  #           # group_by_category: true
-  #           # heading_level: 2
-  #           members_order: alphabetical  # alphabetical/source
+  - glightbox
+  - offline
 
-  #           ## experimental
-  #           # separate_signature: false
-  #           # line_length: 60
-  #           # show_submodules: true
-  #           docstring_section_style: list  # or table/list/spacy
+nav:
+  - Home: index.md
+  - image2register: image2register.md
+  - image2viewer: image2viewer.md
+  - image2export: image2export.md
+  - Planned features: planned.md
+  - Changelog: changelog.md

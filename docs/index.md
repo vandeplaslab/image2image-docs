@@ -6,7 +6,6 @@ To launch any of the apps you use the 'launcher' app.
 
 <figure markdown>
   ![launcher](assets/launcher.png){ width=300px; align=middle }
-  <figcaption>Launcher app</figcaption>
 </figure>
 
 
