@@ -12,7 +12,7 @@ For instance, you have the following images:
 Normally you would co-register your H&E, preIMS and postIMS AF together but for some reason you didn't, but you still wanted to overlay them. In this case, you would perform manual registration using the [image2register](image2register.md) app which produces the `i2r.json` configuration file.
 
 <figure markdown>
-  ![dialog-viewer](../assets/dialog_viewer.jpg)
+  ![dialog-viewer](../assets/dialog_viewer.jpg){ width=600px; }
 </figure>
 
 ## Steps to overlay multiple images together
@@ -30,7 +30,7 @@ Normally you would co-register your H&E, preIMS and postIMS AF together but for 
 Click on the `Add/remove dataset...` button to open the popup window.
 
 <figure markdown>
-  ![image-selection](../assets/dialog_load_image.jpg)
+  ![image-selection](../assets/dialog_load_image.jpg){ width=600px; }
 </figure>
 
 - Click on `Add image` button to add new image to the list.
@@ -44,7 +44,7 @@ Click on the `Add/remove dataset...` button to open the popup window.
 Click on the `Select transformation` button to open the popup window.
 
 <figure markdown>
-  ![image-transformation](../assets/dialog_transformation.jpg)
+  ![image-transformation](../assets/dialog_transformation.jpg){ width=600px; }
 </figure>
 
 - Click on the :material-plus-circle: to load new transformation information from the `i2r.json` or `i2r.toml` file. Once loaded, the transformation will appear in the combobox to the left of the button.
@@ -53,3 +53,18 @@ Click on the `Select transformation` button to open the popup window.
 
 !!! warning Warning
     If the pixel size/resolution information is incorrect, you might get unexpected results.
+
+
+### Scalebar
+
+You can easily display scalebar on your image by clicking on the `Tools > Show scale bar controls...` or ++control+s++ on your keyboard.
+
+<figure markdown>
+  ![image-selection](../assets/scalebar.jpg){ width=300px; }
+</figure>
+
+- You can change its location (any of the four corners of the image).
+- You can change the units (No units, micrometers or pixels.)
+
+!!! note Note
+      For the 'micrometers' units to work properly, you must also specify the pixel size in the image table.
