@@ -4,3 +4,5 @@ mkdocs-autorefs
 mkdocs-minify-plugin
 markdown-changelog
 mkdocs-glightbox
+pillow
+optimize-images
