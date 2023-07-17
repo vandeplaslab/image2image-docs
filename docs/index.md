@@ -5,7 +5,7 @@ image2image is a GUI application consisting of several smaller programs that per
 To launch any of the apps you use the 'launcher' app.
 
 <figure markdown>
-  ![launcher](assets/launcher.png){ width=300px; align=middle }
+  ![launcher](assets/launcher.jpg){ width=300px; align=middle }
 </figure>
 
 

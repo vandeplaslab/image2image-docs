@@ -12,7 +12,7 @@ For instance, you have the following images:
 Normally you would co-register your H&E, preIMS and postIMS AF together but for some reason you didn't, but you still wanted to overlay them. In this case, you would perform manual registration using the [image2register](image2register.md) app which produces the `i2r.json` configuration file.
 
 <figure markdown>
-  ![dialog-viewer](assets/dialog_viewer.png)
+  ![dialog-viewer](assets/dialog_viewer.jpg)
 </figure>
 
 ## Steps to overlay multiple images together
@@ -30,7 +30,7 @@ Normally you would co-register your H&E, preIMS and postIMS AF together but for 
 Click on the `Add/remove dataset...` button to open the popup window.
 
 <figure markdown>
-  ![image-selection](assets/dialog_load_image.png)
+  ![image-selection](assets/dialog_load_image.jpg)
 </figure>
 
 - Click on `Add image` button to add new image to the list.
@@ -44,7 +44,7 @@ Click on the `Add/remove dataset...` button to open the popup window.
 Click on the `Select transformation` button to open the popup window.
 
 <figure markdown>
-  ![image-transformation](assets/dialog_transformation.png)
+  ![image-transformation](assets/dialog_transformation.jpg)
 </figure>
 
 - Click on the :material-plus-circle: to load new transformation information from the `i2r.json` or `i2r.toml` file. Once loaded, the transformation will appear in the combobox to the left of the button.

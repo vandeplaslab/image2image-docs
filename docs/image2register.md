@@ -9,7 +9,7 @@ This app defines the `Fixed` and `Moving` modalities. As the names suggest, the 
 
 
 <figure markdown>
-  ![launcher](assets/dialog_register.png){ width=600px; }
+  ![launcher](assets/dialog_register.jpg){ width=600px; }
 </figure>
 
 ## Steps to get transformation information
@@ -25,7 +25,7 @@ This app defines the `Fixed` and `Moving` modalities. As the names suggest, the 
 You can overlay any of the  `moving` images on the `fixed` image by selecting an image in the `Overlay` combobox. You can also toggle the view type between `Random` image (where we fill-in the image with random values) or `Overlay` which directly represents the co-registered image.
 
 <figure markdown>
-  ![launcher](assets/dialog_register_overlay.png){ width=600px; }
+  ![launcher](assets/dialog_register_overlay.jpg){ width=600px; }
 </figure>
 
 !!! note "Prediction"
@@ -41,7 +41,7 @@ You can overlay any of the  `moving` images on the `fixed` image by selecting an
 
 To the left of each canvas there is a toolbar with a number of widgets.
 
-- :fontawesome-solid-layer-group: - this button opens up `Layer controls` for this particular view. See [layer-controls](/docs/assets/viewer_layers.png)
+- :fontawesome-solid-layer-group: - this button opens up `Layer controls` for this particular view. See [layer-controls](/docs/assets/viewer_layers.jpg)
 - :material-chevron-double-up: - this button moves the points layer to the top. This is sometimes necessary. Use if you can't see the points you are adding!
 - :material-magnify: - activate the `zoom` mode in the viewer. You can also activate it by pressing ++1++ on your keyboard or temporarily enable it by pressing ++space++ on your keyboard if any of the other modes is active.
 - :fontawesome-solid-circle-plus: - activate the `add` mode in the viewer. This mode let's you add fiducial markers to the image. You can also activate it by pressing ++2++ on your keyboard.
@@ -56,7 +56,7 @@ To the left of each canvas there is a toolbar with a number of widgets.
 Click on the `Add/remove dataset...` button to open the popup window.
 
 <figure markdown>
-  ![image-selection](assets/dialog_load_image.png)
+  ![image-selection](assets/dialog_load_image.jpg)
 </figure>
 
 - Click on `Add image` button to add new image to the list.
@@ -69,7 +69,7 @@ Click on the `Add/remove dataset...` button to open the popup window.
 Click on the `Select channels...` button to open the popup window.
 
 <figure markdown>
-  ![image-selection](assets/dialog_select_channels.png){ width=600px; }
+  ![image-selection](assets/dialog_select_channels.jpg){ width=600px; }
 </figure>
 
 - Check/uncheck items in the table to toggle the visibility of an image layer.
@@ -84,7 +84,7 @@ Click on the `Select channels...` button to open the popup window.
 Click on the `Show fiducials table...` button to open the popup window.
 
 <figure markdown>
-  ![launcher](assets/dialog_fiducials.png){ width=600px; }
+  ![launcher](assets/dialog_fiducials.jpg){ width=600px; }
 </figure>
 
 - Double-click with the ++left-button++ on a row to select a pair of points and zoom-in on them in each canvas. You can then easily adjust their position to improve the alignment of layers.
