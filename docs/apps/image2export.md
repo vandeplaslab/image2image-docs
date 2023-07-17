@@ -13,7 +13,7 @@ This app enables export of microscopy data in CSV file format that is compatible
 
 
 <figure markdown>
-  ![dialog-export](assets/dialog_export.jpg){ width=600px; }
+  ![dialog-export](../assets/dialog_export.jpg){ width=600px; }
 </figure>
 
 !!! warning Warning
@@ -27,7 +27,7 @@ This app enables export of microscopy data in CSV file format that is compatible
 Click on the `Add/remove dataset...` button to open the popup window.
 
 <figure markdown>
-  ![image-selection](assets/dialog_load_image.jpg)
+  ![image-selection](../assets/dialog_load_image.jpg)
 </figure>
 
 - Click on `Add image` button to add new image to the list.

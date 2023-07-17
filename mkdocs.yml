@@ -62,10 +62,11 @@ plugins:
 
 nav:
   - Home: index.md
-  - image2register: image2register.md
-  - image2viewer: image2viewer.md
-  - image2export: image2export.md
-  - image2sync: image2sync.md
-  - image2crop: image2crop.md
+  - Apps: 
+    - image2register: apps/image2register.md
+    - image2viewer: apps/image2viewer.md
+    - image2export: apps/image2export.md
+    - image2sync: apps/image2sync.md
+    - image2crop: apps/image2crop.md
   - Planned features: planned.md
   - Changelog: changelog.md
