@@ -1,8 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/</loc>
-         <lastmod>2023-07-15</lastmod>
+         <loc>https://github.com/vandeplaslab/image2image-docs/index.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/changelog.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/image2crop.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/image2export.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/image2register.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/image2sync.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/image2viewer.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/planned.html</loc>
+         <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
