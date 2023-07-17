@@ -16,6 +16,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/request.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2crop.html</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
