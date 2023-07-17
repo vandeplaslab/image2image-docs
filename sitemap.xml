@@ -11,32 +11,32 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/image2crop.html</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/image2export.html</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/image2register.html</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/image2sync.html</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://github.com/vandeplaslab/image2image-docs/image2viewer.html</loc>
-         <lastmod>2023-07-17</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
          <loc>https://github.com/vandeplaslab/image2image-docs/planned.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2crop.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2export.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2register.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2sync.html</loc>
+         <lastmod>2023-07-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://github.com/vandeplaslab/image2image-docs/apps/image2viewer.html</loc>
          <lastmod>2023-07-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
