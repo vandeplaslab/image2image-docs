@@ -68,5 +68,6 @@ nav:
     - image2export: apps/image2export.md
     - image2sync: apps/image2sync.md
     - image2crop: apps/image2crop.md
+  - Requests/Bug reports: request.md
   - Planned features: planned.md
   - Changelog: changelog.md
