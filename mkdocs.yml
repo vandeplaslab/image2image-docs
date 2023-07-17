@@ -65,5 +65,7 @@ nav:
   - image2register: image2register.md
   - image2viewer: image2viewer.md
   - image2export: image2export.md
+  - image2sync: image2sync.md
+  - image2crop: image2crop.md
   - Planned features: planned.md
   - Changelog: changelog.md
