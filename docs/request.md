@@ -2,7 +2,7 @@
 
 You can request new features and report bugs in a couple of different ways.
 
-1. Send a request using the `Help > Send feedback or request...` menu option. This will open a popup window where you can provide more information. This information is using [sentry.io](https://sentry.io/welcome/) under the hood.
+1. Send a request using the `Help > Send feedback or request...` menu option. This will open a popup window where you can provide more information. We are using [sentry.io](https://sentry.io/welcome/) under the hood.
 2. Create a GitHub issue on the [image2image-docs](https://github.com/vandeplaslab/image2image-docs) public website. (Requires a GitHub account)
 3. Contact Lukasz G. Migas using Slack or email.
 
