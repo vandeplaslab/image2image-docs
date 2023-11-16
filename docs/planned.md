@@ -13,5 +13,5 @@ There is a number of features that we would like to add that are currently not i
     * [x] Basic implementation
     * [ ] Improved performance
     * [ ] Allow cancelling of tasks
-- [ ] Add image cropping tool
+- [x] Add image cropping tool
 - [ ] Add synchronized viewer tool
