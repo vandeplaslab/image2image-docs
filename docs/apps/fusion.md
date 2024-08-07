@@ -1,8 +1,5 @@
 # Fusion Preparation App
 
-!!! warning "This app is not complete"
-        This app still have some missing functionality and might not work as intended.
-
 This app enables export of microscopy data in CSV file format that is compatible with Raf Van de Plas' fusion program. The fusion tool uses a non-standard CSV format which can be troublesome to generate using normal tools.
 
 ## Steps to export image(s)
