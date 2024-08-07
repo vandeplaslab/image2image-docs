@@ -46,7 +46,6 @@ There are a number of pre-processing parameters that can be adjusted to improve 
   ![launcher](../assets/elastix/preprocessing.jpg){ width=400px; }
 </figure>
 
-
 ## Masking
 
 You can create masks to focus the registration on a specific part of the image. You can start this process by clicking on the `Mask...` button which opens a new dialog window.
