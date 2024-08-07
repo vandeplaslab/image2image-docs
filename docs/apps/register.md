@@ -65,7 +65,7 @@ Since version **0.1.7** it is possible to automatically generate fiducial marker
 
 To the left of each canvas there is a toolbar with a number of widgets.
 
-- :fontawesome-solid-layer-group: - this button opens up `Layer controls` for this particular view. See [layer-controls](/docs/assets/viewer_layers.jpg)
+- :fontawesome-solid-layer-group: - this button opens up `Layer controls` for this particular view. See [layer-controls](../assets/viewer_layers.jpg)
 - :material-chevron-double-up: - this button moves the points layer to the top. This is sometimes necessary. Use if you can't see the points you are adding!
 - :material-magnify: - activate the `zoom` mode in the viewer. You can also activate it by pressing ++1++ on your keyboard or temporarily enable it by pressing ++space++ on your keyboard if any of the other modes is active.
 - :fontawesome-solid-circle-plus: - activate the `add` mode in the viewer. This mode let's you add fiducial markers to the image. You can also activate it by pressing ++2++ on your keyboard.

@@ -53,6 +53,6 @@ This app enables export of microscopy data in a format that is compatible with R
 
 ## Some other apps that will be added in the future
 
-### [Sync app](apps/sync.md) (coming)
+### [Sync app](apps/na.md) (coming)
 
 This app will provide interface similar to image2viewer but will have two side-by-side canvases for synchronized viewing. Very helpful when trying to show masks or compare spatial patterns in different modalities.
