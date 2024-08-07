@@ -41,3 +41,7 @@
   .badge-square {
     border-radius: 2px;
   }
+
+  .md-typeset figure img {
+    display: inline;
+}
