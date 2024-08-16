@@ -106,8 +106,8 @@ Elastix projects are saved into a `<your project name>.wsireg` folders that cont
 
 The folder normally contains the following sub-folders:
 
-- Cache - contains the pre-processed images and masks.
-- Images - contains the registered images.
-- Logs - contains the logs of the registration process.
-- Progress - contains the progress of the registration process.
-- Transformations - contains the transformation matrices.
+- Cache - contains the pre-processed images and masks. You should check this folder when registration fails and see whether the pre-processed images look anything alike.
+- Images - contains the registered images. This folder will contain any `registered` data including images, GeoJSONs, point data, etc.
+- Logs - contains the logs of the registration process. This can be useful to check what `commands` were executed on the project.
+- Progress - contains the progress of the registration process. This folder contains miscellaneous files that are used to keep track of the registration process.
+- Transformations - contains the transformation matrices. This folder contains the `elastix` transformation data that can be used to transform the microscopy images (and any associated data) to the new coordinate system.

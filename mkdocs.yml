@@ -79,6 +79,14 @@ nav:
     - Convert app: apps/convert.md
     - Merge app: apps/merge.md
     - Fusion app: apps/fusion.md
+  - Dialogs:
+    - Dataset selection: dialog/dataset-selection.md
+    - Channel selection: dialog/channel-selection.md
+    - Transformation selection: dialog/transformation-selection.md
+    - Export masks: dialog/export-masks.md
+    - Fiducials table: dialog/fiducials-table.md
+    - Generate fiducials: dialog/generate-fiducials.md
+    - Initial transformation: dialog/initial-transform.md
   - Requests/Bug reports: request.md
   - Planned features: planned.md
   - Changelog: changelog.md
