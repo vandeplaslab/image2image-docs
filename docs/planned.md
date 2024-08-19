@@ -5,7 +5,7 @@ There is a number of features that we would like to add that are currently not i
 - [x] Add image registration tool
     * [x] Allow loading of microscopy and IMS datasets
     * [x] Allow extraction of arbitrary images when IMS data is .imzML or Bruker .d
-    * [ ] Allow export of `napari-imsmicrolink` configuration.
+    * [ ] Allow extraction of images for specific ROI.
 - [x] Add image viewer tool
     * [x] Allow loading of microscopy and IMS datasets
     * [x] Allow extraction of arbitrary images when IMS data is .imzML or Bruker .d
@@ -14,4 +14,6 @@ There is a number of features that we would like to add that are currently not i
     * [ ] Improved performance
     * [ ] Allow cancelling of tasks
 - [x] Add image cropping tool
+- [x] Add WSI registration tool (replacement for wsireg)
+- [x] Add Valis registration tool
 - [ ] Add synchronized viewer tool
