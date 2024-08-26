@@ -87,6 +87,7 @@ nav:
     - Fiducials table: dialogs/fiducials-table.md
     - Generate fiducials: dialogs/generate-fiducials.md
     - Initial transformation: dialogs/initial-transform.md
+    - Mask maker: dialogs/mask-maker.md
   - Requests/Bug reports: request.md
   - Planned features: planned.md
   - Changelog: changelog.md
