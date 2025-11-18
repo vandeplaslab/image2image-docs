@@ -77,27 +77,16 @@ To the left of each canvas there is a toolbar with a number of widgets.
 
 ### Image selection
 
-Click on the `Add/remove dataset...` button to open the popup window.
-
-<figure markdown>
-  ![image-selection](../assets/datasets.jpg){ width=500px; }
-</figure>
-
-- Click on `Add image` button to add new image to the list.
-- Click on the `Remove image` to remove one or more image from the list.
-- Click on the :fontawesome-solid-trash-can: to delete the single image and all it's layers.
-
-
-### Channel selection
-
 Click on the `Select channels...` button to open the popup window.
+The window shows a unified way of selecting which datasets and channels should be displayed, how the images (or other modalities) should be transform to the common coordinate system.
 
 <figure markdown>
-  ![image-selection](../assets/select-channels.jpg){ width=500px; }
+  ![image-selection](../assets/select-channels.jpg){ width=600px; }
 </figure>
 
-- Check/uncheck items in the table to toggle the visibility of an image layer.
-- You can click on the header of the first column (one without any label) to quickly toggle the visibility of all layers.
+- Click on the :fontawesome-solid-trash: to delete the entire dataset (all channels).
+- Click on the :octicons-diamond-24: to select the transformation that should be applied to the dataset.
+- Click on the :material-view-carousel-outline: to open a new popup window where you can select which channels should be displayed.
 
 ### Initial transformation
 
@@ -106,7 +95,6 @@ In some situations, you might have a microscopy image that is rotated or flipped
 <figure markdown>
   ![image-selection](../assets/register/with-initial.jpg){ width=600px; }
 </figure>
-
 
 
 ### Fiducials table

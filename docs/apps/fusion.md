@@ -15,18 +15,3 @@ This app enables export of microscopy data in CSV file format that is compatible
 
 !!! warning Warning
         This app does not have viewer canvas so the images will not be displayed!
-
-
-## Dialogs and widgets
-
-### Image selection
-
-Click on the `Add/remove dataset...` button to open the popup window.
-
-<figure markdown>
-  ![image-selection](../assets/datasets.jpg){ width=500px; }
-</figure>
-
-- Click on `Add image` button to add new image to the list.
-- Click on the `Remove image` to remove one or more image from the list.
-- Click on the :fontawesome-solid-trash-can: to delete the single image and all it's layers.

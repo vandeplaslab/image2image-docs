@@ -32,8 +32,23 @@ It is essential that the `pixel size` value in the `Datasets` table is correct. 
 It's very easy to adjust the `scale` of any layer by changing the value of the `pixel size` in the table.
 
 <figure markdown>
-  ![dialog-viewer](../assets/viewer/scale-is-important.jpg){ width=600px; }
+  ![dialog-viewer-1](../assets/viewer/scale-is-important-1.jpg){ width=600px; }
   <figcaption>Scale is important. Make sure to adjust the `pixel size` of all overlaid datasets or some of them will not look correct.</figcaption>
+</figure>
+
+
+When you load data from `GeoJSON` or text files, you will be prompted to specify the pixel spacing so that the data is properly scaled to match the image.
+While its widely accepted that `GeoJSON` files should be exported in the `pixel coordinates`, some software export them in `micrometer` coordinates, so make sure to check which one is the case for your data.
+
+<figure markdown>
+  ![dialog-viewer-2](../assets/viewer/apply-scale-to-mask.jpg){ width=600px; }
+  <figcaption>When loading data from GeoJSON or text files, you will be asked to specify the pixel spacing.</figcaption>
+</figure>
+
+
+<figure markdown>
+  ![dialog-viewer-2](../assets/viewer/scale-is-important-2.jpg){ width=600px; }
+  <figcaption>Scale is important. Once the scale has been set, the images and masks should overlay correctly.</figcaption>
 </figure>
 
 
@@ -41,27 +56,42 @@ It's very easy to adjust the `scale` of any layer by changing the value of the `
 
 ### Image selection
 
-Click on the `Add/remove dataset...` button to open the popup window.
+Click on the `Select channels...` button to open the popup window.
+The window shows a unified way of selecting which datasets and channels should be displayed, how the images (or other modalities) should be transform to the common coordinate system.
 
 <figure markdown>
-  ![image-selection](../assets/datasets.jpg){ width=600px; }
+  ![image-selection](../assets/select-channels.jpg){ width=600px; }
 </figure>
 
-- Double-click ++left-button++ on the value in the `pixel size (um)` to adjust the spatial resolution of the image (and all it's channels).
-- Click on the :fontawesome-solid-trash-can: to delete the single image and all it's layers.
+- Click on the :fontawesome-solid-trash: to delete the entire dataset (all channels).
+- Click on the :octicons-diamond-24: to select the transformation that should be applied to the dataset.
+- Click on the :material-view-carousel-outline: to open a new popup window where you can select which channels should be displayed.
 
 
 ### Image transformation
 
-Click on the `Select transformation` button to open the popup window.
+As implied above, you might have images that need to be transformed to a common coordinate system. Often, when we work with multiple imaging modalities, we don't export all images to the 
+same coordinate system. For instance, you might have a histology image (H&E or PAS stain), and an IMS image which is often of much lower resolution and much smaller in size.
+In such cases, we would manually (or otherwise) register the images together and save the transformation information the `i2r.json` or `i2r.toml` file using the [register](register.md) app.
+
+Then, when you want to display those different images together in the [viewer](viewer.md) app, you would need to apply the transformation to the images that are not in the common coordinate system.
 
 <figure markdown>
-  ![image-transformation](../assets/viewer/transformation.jpg){ width=600px; }
+  ![transformation](../assets/viewer/transformation.jpg){ width=600px; }
 </figure>
 
-- Click on the :material-plus-circle: to load new transformation information from the `i2r.json` or `i2r.toml` file. Once loaded, the transformation will appear in the combobox to the left of the button.
-- Check/uncheck items in the table to select which images should to current transformation be applied to. Click on the `Apply to selected` button to apply it. Changes will be immediately reflected in the image canvas.
-- You can always reset the transformation bu applying the `Identity matrix` option.
+Here are the steps to apply a transformation to an image:
+
+1. Click on the `Select channels...` button to open the popup window.
+2. Click on the :octicons-diamond-24: to open the transformation menu popup.
+3. If you've not `dragged-and-dropped` the `i2r.json` or `i2r.toml` file yet, you can do so or click on the `Add` option in the menu to load it.
+4. Select the transformation from the list of available options. 
+5. The underlying layers (images or otherwise) will be immediately transformed to the new coordinate system.
+
+<figure markdown>
+  ![add-transform](../assets/viewer/add-image.jpg){ width=600px; } 
+  <figcaption>Before the IMS data is transformed, it looks like the image on the left-hand side, but after transformation, it is displayed correctly on the H&E image.</figcaption>
+</figure>
 
 !!! warning Warning
     If the pixel size/resolution information is incorrect, you might get unexpected results.
@@ -72,7 +102,7 @@ Click on the `Select transformation` button to open the popup window.
 You can easily display scalebar on your image by clicking on the `Tools > Show scale bar controls...` or ++control+s++ on your keyboard.
 
 <figure markdown>
-  ![image-selection](../assets/scalebar.jpg){ width=300px; }
+  ![scalebar](../assets/scalebar.jpg){ width=300px; }
 </figure>
 
 - You can change its location (any of the four corners of the image).

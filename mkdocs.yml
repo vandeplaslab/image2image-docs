@@ -68,8 +68,8 @@ nav:
   - Home: index.md
   - Viewer apps: 
     - Viewer app: apps/viewer.md
-    - Sync app (not available yet): apps/na.md
-    - Volume app (not available yet): apps/na.md
+    # - Sync app (not available yet): apps/na.md
+    # - Volume app (not available yet): apps/na.md
   - Registration apps: 
     - Register app: apps/register.md
     - Elastix app: apps/elastix.md
