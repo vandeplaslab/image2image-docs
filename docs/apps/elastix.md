@@ -46,6 +46,12 @@ There are a number of pre-processing parameters that can be adjusted to improve 
   ![launcher](../assets/elastix/preprocessing.jpg){ width=400px; }
 </figure>
 
+You can apply pre-processing parameters to multiple images at once by using the :fontawesome-solid-magic-wand-sparkles: wand button.
+
+<figure markdown>
+  ![launcher](../assets/elastix/magic-apply.jpg){ width=400px; }
+</figure>
+
 ## Masking
 
 You can create masks to focus the registration on a specific part of the image. You can start this process by clicking on the `Mask...` button which opens a new dialog window.
@@ -70,6 +76,20 @@ There is always a `source` modality which is going to be `moved` to the `target`
 There are many options available ranging from `rigid`, `affine` to `non-linear` options.
 <figure markdown>
   ![launcher](../assets/elastix/path-options.jpg){ width=400px; }
+</figure>
+
+If you are creating fairly straightforward registration paths, you can use the :fontawesome-solid-magic-wand-sparkles: wand button.
+This will create either a:
+
+- `direct` paths between the images, where you must select the `target` image and the other images become `sources`.
+- `cascade` paths between t he images, where you must select the `target` image and the source images are registered in sequence to the target image. This is particuarly helpful when dealing with a lage number of images (e.g. 3-D registration from 2-D images). So if you had images, A, B, C, D, E, and you selected e.g. C as the target, the paths would be created as follows:
+    - A -> B -> C
+    - B -> C
+    - D -> E -> C
+    - E -> C
+
+<figure markdown>
+  ![launcher](../assets/elastix/magic-paths.jpg){ width=400px; }
 </figure>
 
 You can visualise the registration path by opening the `registration network` widget.
@@ -98,6 +118,13 @@ Tasks that are being registered in the app, go the `Tasks queue` widget. You can
 
 <figure markdown>
   ![launcher](../assets/elastix/queue.jpg){ width=400px; }
+</figure>
+
+You can monitor the progress of each task in the queue, as well as pause/cancel them if needed.
+Also, you can view the commands that are being executed for each task.
+
+<figure markdown>
+  ![launcher](../assets/elastix/queue-commands.jpg){ width=400px; }
 </figure>
 
 ## Project structure
